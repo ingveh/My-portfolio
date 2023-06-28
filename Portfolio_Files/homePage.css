@@ -28,7 +28,7 @@ td {
 
 .navigationLink {
     color: aliceblue;
-    font-size: large;
+    font-size: larger;
 }
 
 #portrait {
@@ -42,4 +42,25 @@ td {
 .contactInfoParent {
     display: flex;
     justify-content: center;
+}
+
+.projectList {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(18, 148, 18);
+    padding: .5em;
+    border-radius: 6px;
+}
+
+.projectItem {
+    background-color: yellowgreen;
+    padding: 1.5em;
+    margin: .2em;
+    box-shadow: -3px 3px 5px -1px rgba(0,0,0,0.75);
+    border-radius: 6px;
+}
+
+.projectLink {
+    color: aliceblue;
+    font-size: larger;
 }
