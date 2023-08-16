@@ -16,6 +16,8 @@ td {
     background-color: rgb(18, 148, 18);
     padding: .5em;
     border-radius: 6px;
+    position: sticky;
+    top: 0;
 }
 
 .navigationItem {
@@ -24,6 +26,14 @@ td {
     margin: .2em;
     box-shadow: -3px 3px 5px -1px rgba(0,0,0,0.75);
     border-radius: 6px;
+    transition-property: transform;
+    transition-duration: 200ms;
+    transition-delay: 50ms;
+    transition-timing-function: ease-in-out;
+}
+
+.navigationItem:hover {
+    transform: scale(1.1);
 }
 
 .navigationLink {
@@ -58,6 +68,18 @@ td {
     margin: .2em;
     box-shadow: -3px 3px 5px -1px rgba(0,0,0,0.75);
     border-radius: 6px;
+    transition-property: transform;
+    transition-duration: 200ms;
+    transition-delay: 50ms;
+    transition-timing-function: ease-in-out;
+}
+
+.projectItem:hover {
+    transform: scale(1.1);
+}
+
+.projectItem:click {
+    transform: scale(0.9)
 }
 
 .projectLink {
